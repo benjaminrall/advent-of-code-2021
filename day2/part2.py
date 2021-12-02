@@ -1,18 +1,1 @@
-with open("input.txt","r") as f:
-    lines = [line.replace("\n", "").split(" ") for line in f.readlines()]
-lines = [(line[0], int(line[1])) for line in lines]
-
-horizontal = 0
-depth = 0
-aim = 0
-
-for line in lines:
-    if line[0] == "forward":
-        horizontal += line[1]
-        depth += aim * line[1]
-    elif line[0] == "up":
-        aim -= line[1]
-    elif line[0] == "down":
-        aim += line[1]
-
-print(horizontal * depth)
+print(sum([line[1] for line in [(line[0], int(line[1])) for line in [line.replace("\n", "").split(" ") for line in open("input.txt","r").readlines()]] if line[0] == "forward"]) * sum([[ sum(aims[:i]) * line[1] for i, line in enumerate([(line[0], int(line[1])) for line in [line.replace("\n", "").split(" ") for line in open("input.txt","r").readlines()]]) if line[0] == "forward" ] for aims in [ [ 0 if line[0] == "forward" else (line[1] if line[0] == "down" else -line[1]) for line in [(line[0], int(line[1])) for line in [line.replace("\n", "").split(" ") for line in open("input.txt","r").readlines()]] ] ]][0]))
