@@ -1,8 +1,1 @@
-with open("input.txt", "r") as f:
-    lines = [line.replace("\n", "") for line in f.readlines()]
-gamma = [ 1 if sum([ 1 if j == 1 else -1 for j in [int(line[i]) for line in lines] ]) > 0 else 0 for i in range(len(lines[0])) ]
-epsilon = [ 0 if n == 1 else 1 for n in gamma ]
-
-gammaB2 = sum([ 2 ** i if gamma[-(1 + i)] == 1 else 0 for i in range(len(gamma))])
-epsilonB2 = sum([ 2 ** i if epsilon[-(1 + i)] == 1 else 0 for i in range(len(epsilon))])
-print(gammaB2 * epsilonB2)
+print([e[0] * e[1] for e in [[int(''.join([str(z) for z in x]), 2) for x in ([n for n in [ 1 if sum([ 1 if j == 1 else -1 for j in [int(line[i]) for line in [line.replace("\n", "") for line in open("input.txt", "r").readlines()]] ]) > 0 else 0 for i in range(len([line.replace("\n", "") for line in open("input.txt", "r").readlines()][0])) ]], [0 if n == 1 else 1 for n in [ 1 if sum([ 1 if j == 1 else -1 for j in [int(line[i]) for line in [line.replace("\n", "") for line in open("input.txt", "r").readlines()]] ]) > 0 else 0 for i in range(len([line.replace("\n", "") for line in open("input.txt", "r").readlines()][0])) ]]) ]] ][0])
