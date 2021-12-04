@@ -1,23 +1,23 @@
 with open("input.txt", "r") as f:
     lines = [line.replace("\n", "").strip() for line in f.readlines()]
 
-drawnNumbers = [int(num) for num in lines[0].split(",")]
+def makeBoards(lines, initial = False):
+    boards = []
+    currentBoard = []
+    for line in lines[2:]:
+        if line == "":
+            boards.append(currentBoard)
+            currentBoard = []
+        else:
+            currentBoard.append([[int(num), initial] for num in line.split(" ") if num != ""])
+    boards.append(currentBoard)
+    return boards
 
-boards = []
-currentBoard = []
-for line in lines[2:]:
-    if line == "":
-        boards.append(currentBoard)
-        currentBoard = []
-    else:
-        currentBoard.append([[int(num), False] for num in line.split(" ") if num != ""])
-boards.append(currentBoard)
-
-def markNumber(board, number):
+def markNumber(board, number, value = True):
     for row in board:
         for col in row:
             if col[0] == number:
-                col[1] = True
+                col[1] = value
 
 def checkWin(board):
     for row in board:
@@ -37,6 +37,9 @@ def checkWin(board):
         if winningCol:
             return True
     return False
+
+drawnNumbers = [int(num) for num in lines[0].split(",")]
+boards = makeBoards(lines)
 
 winTerms = None
 for number in drawnNumbers:
