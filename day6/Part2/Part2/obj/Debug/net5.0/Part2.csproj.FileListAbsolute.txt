@@ -1,0 +1,16 @@
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\bin\Debug\net5.0\Part2.exe
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\bin\Debug\net5.0\Part2.deps.json
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\bin\Debug\net5.0\Part2.runtimeconfig.json
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\bin\Debug\net5.0\Part2.runtimeconfig.dev.json
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\bin\Debug\net5.0\Part2.dll
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\bin\Debug\net5.0\ref\Part2.dll
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\bin\Debug\net5.0\Part2.pdb
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\obj\Debug\net5.0\Part2.csproj.AssemblyReference.cache
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\obj\Debug\net5.0\Part2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\obj\Debug\net5.0\Part2.AssemblyInfoInputs.cache
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\obj\Debug\net5.0\Part2.AssemblyInfo.cs
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\obj\Debug\net5.0\Part2.csproj.CoreCompileInputs.cache
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\obj\Debug\net5.0\Part2.dll
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\obj\Debug\net5.0\ref\Part2.dll
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\obj\Debug\net5.0\Part2.pdb
+C:\Users\Ben\OneDrive - Peter Symonds College\Desktop\Coding\advent-of-code-2021\day6\Part2\Part2\obj\Debug\net5.0\Part2.genruntimeconfig.cache
