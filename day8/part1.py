@@ -1,0 +1,1 @@
+print(sum([sum([1 for g in d[1] if g in [2, 4, 3, 7]]) for d in [ [[ len(x) for x in line[0].split(" ")], [ len(y) for y in line[1].split(" ")]] for line in [line.replace("\n", "").split(" | ") for line in open("input.txt", "r").readlines()] ]]))
